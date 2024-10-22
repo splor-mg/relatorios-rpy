@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relatorios-rpy"
+version = "0.1.0"
+description = "A reprex Python package to use rpy with the relatorios."
+authors = [{name = "Andrey Morais Labanca", email = "moraislabanca@gmail.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["relatorios_rpy"]
+
+[tool.setuptools.packages.find]
+where = ["relatorios_rpy"]
+
+[project.urls]
+homepage = "https://github.com/splor-mg/relatorios-rpy"
